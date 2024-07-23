@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.matrix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
